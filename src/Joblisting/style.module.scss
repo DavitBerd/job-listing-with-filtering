@@ -11,7 +11,7 @@
 .header {
   background-color: #5ca5a5;
   background-image: url("../imgs//Combined\ Shape.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 156px;
   width: 100%;
@@ -147,6 +147,11 @@
     color: #5ca5a5;
     font-size: 0.875rem;
     margin: 0;
+  }
+  .jobInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
 }
 

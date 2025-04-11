@@ -67,7 +67,6 @@ const JobListings = ({ jobs }: JobListingsProps) => {
             <div className={styles.jobDetails}>
               <div className={styles.jobHeader}>
                 <div className={styles.jobInfo}>
-                  {" "}
                   <h3>{job.name}</h3>
                   {job.id === "1" && (
                     <>
